@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="img/cyber-header.svg" width="100%" alt="Sukamager cyber profile header" />
+<img src="img/cyber-header.gif" width="100%" alt="Sukamager cyber profile header" />
 
 <img src="img/hologram-circle.gif" width="175" height="175" alt="Sukamager centered circular cyan hologram portrait" />
 
