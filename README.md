@@ -2,7 +2,7 @@
 
 <img src="img/cyber-header.svg" width="100%" alt="Sukamager cyber profile header" />
 
-<img src="img/hologram.gif" width="310" alt="Sukamager cyan hologram portrait" />
+<img src="img/hologram-circle.gif" width="175" height="175" alt="Sukamager centered circular cyan hologram portrait" />
 
 ### `> HELLO, WORLD!`
 **Student • Developer • Tech Enthusiast**
