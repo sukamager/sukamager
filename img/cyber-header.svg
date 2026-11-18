@@ -1,12 +1,19 @@
 <svg width="1200" height="250" viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1200" y2="250"><stop stop-color="#00E5FF"/><stop offset=".52" stop-color="#4169FF"/><stop offset="1" stop-color="#B44CFF"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<defs>
+ <linearGradient id="g" x1="0" y1="0" x2="1200" y2="250"><stop stop-color="#00E5FF"/><stop offset=".52" stop-color="#4169FF"/><stop offset="1" stop-color="#B44CFF"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <clipPath id="typing"><rect x="60" y="55" width="0" height="72"><animate attributeName="width" values="0;460;460;0" keyTimes="0;.35;.75;1" dur="6s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
 <rect width="1200" height="250" rx="22" fill="#050B18"/><rect x="8" y="8" width="1184" height="234" rx="18" stroke="url(#g)" stroke-width="2" opacity=".9"/>
 <path d="M0 190H1200M0 58H1200" stroke="#12365B" opacity=".8"/><path d="M25 28H280L300 48H900L920 28H1175" stroke="url(#g)" stroke-width="2" opacity=".8"/>
 <g fill="#6EEBFF" opacity=".7"><circle cx="55" cy="85" r="2"/><circle cx="1120" cy="175" r="2"/><circle cx="1040" cy="70" r="2"/><circle cx="340" cy="210" r="2"/></g>
-<text x="62" y="112" fill="#EAFBFF" font-family="monospace" font-size="58" font-weight="700" filter="url(#glow)">SUKAMAGER</text>
+<text x="62" y="112" fill="#EAFBFF" font-family="monospace" font-size="58" font-weight="700" filter="url(#glow)" clip-path="url(#typing)">SUKAMAGER</text>
+<rect x="62" y="68" width="4" height="55" fill="#6EEBFF" filter="url(#glow)"><animate attributeName="x" values="62;505;505;62" keyTimes="0;.35;.75;1" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.32;.36;.92;1" dur="6s" repeatCount="indefinite"/></rect>
 <text x="66" y="153" fill="#59DFFF" font-family="monospace" font-size="20" letter-spacing="4">DEVELOPER // TECH ENTHUSIAST</text>
-<text x="67" y="205" fill="#8EA9CC" font-family="monospace" font-size="17">INITIALIZING PROFILE INTERFACE...</text>
-<text x="920" y="113" fill="#45FFC2" font-family="monospace" font-size="19">● SYSTEM ONLINE</text>
+<text x="67" y="205" fill="#8EA9CC" font-family="monospace" font-size="17">INITIALIZING PROFILE INTERFACE<tspan>...</tspan><animate attributeName="opacity" values=".35;1;.35" dur="1.4s" repeatCount="indefinite"/></text>
+<g fill="#8EA9CC"><circle cx="385" cy="199" r="3"><animate attributeName="opacity" values=".15;1;.15" dur="1s" repeatCount="indefinite"/></circle><circle cx="399" cy="199" r="3"><animate attributeName="opacity" values=".15;1;.15" begin=".25s" dur="1s" repeatCount="indefinite"/></circle><circle cx="413" cy="199" r="3"><animate attributeName="opacity" values=".15;1;.15" begin=".5s" dur="1s" repeatCount="indefinite"/></circle></g>
+<g filter="url(#glow)"><text x="920" y="113" fill="#45FFC2" font-family="monospace" font-size="19">● SYSTEM ONLINE</text><text x="920" y="113" fill="#45FFC2" font-family="monospace" font-size="19" opacity="0"><animate attributeName="opacity" values="0;.8;0" dur="1.8s" repeatCount="indefinite"/>● SYSTEM ONLINE</text></g>
+<circle cx="1165" cy="106" r="6" fill="#45FFC2" filter="url(#glow)"><animate attributeName="opacity" values=".25;1;.25" dur="1.2s" repeatCount="indefinite"/><animate attributeName="r" values="5;7;5" dur="1.2s" repeatCount="indefinite"/></circle>
 <text x="920" y="150" fill="#7D9BBB" font-family="monospace" font-size="15">GITHUB://SUKAMAGER</text>
 <rect x="62" y="222" width="1076" height="3" rx="2" fill="#16304D"/><rect x="62" y="222" width="1076" height="3" rx="2" fill="url(#g)"><animate attributeName="opacity" values=".35;1;.35" dur="2.2s" repeatCount="indefinite"/></rect>
 <path d="M1070 30h70m-35-12v24" stroke="#54E9FF" stroke-width="2" opacity=".8"><animate attributeName="opacity" values=".25;1;.25" dur="1.4s" repeatCount="indefinite"/></path>
